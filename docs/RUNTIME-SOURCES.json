@@ -1,0 +1,28 @@
+{
+  "purpose": "Verified local experiment inputs; third-party artifacts are not committed. Installed runtime loader/rpath adjustments are separate from original archive hashes.",
+  "wine_sikarugir_10": {
+    "url": "https://github.com/Sikarugir-App/Engines/releases/download/v1.0/WS12WineSikarugir10.0_8.tar.xz",
+    "sha256": "2a6bcf2a3bf13cddf825599b6bc1e3659cbf71e1282c6d77141a92f6ac8d4c68"
+  },
+  "wine_sikarugir_11_candidate": {
+    "url": "https://github.com/Sikarugir-App/Engines/releases/download/v1.0/WS12WineSikarugir11.0_1.tar.xz",
+    "sha256": "67e29fb3d74f363af39c69ba11f9b13a79812c5db07cf4748672658e4a200a0e"
+  },
+  "d9vk": {
+    "url": "https://github.com/Sikarugir-App/d9vk/releases/tag/v1.10.3-20250511",
+    "sha256": "13a088e96c90501705c26326044ccc57e2b03adda3ed0dd7061e89249d4c176e"
+  },
+  "dxvk_macos": {
+    "url": "https://github.com/Gcenx/DXVK-macOS/releases/tag/v1.10.3-20230507-repack",
+    "sha256": "acd1520ad105d8ef124a09c8e11a259a5dc8bdc565ad18e0e52693f9807b2477"
+  },
+  "unixodbc_intel_bottle": {
+    "source": "Homebrew unixODBC 2.3.14 Intel Sonoma",
+    "sha256": "6fc56b53e2abd5b38ed655c2c32caae95753e6b6f5a9fe0a10c4b760a3974d2e"
+  },
+  "libtool_intel_bottle": {
+    "cellar": ":any",
+    "url": "https://ghcr.io/v2/homebrew/core/libtool/blobs/sha256:616479dd74d4824d290395c2551ce07c69a715b92bb3901c1438ad734e2e45d0",
+    "sha256": "616479dd74d4824d290395c2551ce07c69a715b92bb3901c1438ad734e2e45d0"
+  }
+}
