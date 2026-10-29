@@ -1,0 +1,13 @@
+[package]
+name = "pb-runner"
+version = "0.1.0"
+edition = "2024"
+description = "Independent, observable Windows runtime runner for Point Blank on macOS"
+license = "MIT"
+
+[dependencies]
+
+[profile.release]
+strip = true
+lto = true
+
